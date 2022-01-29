@@ -1,0 +1,83 @@
+body {
+    background-color: whitesmoke;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 80vh;
+}
+
+.calcContainer {
+    display: flex;
+    background-color: rgb(49, 138, 190);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 450px;
+    height: 630px;
+
+}
+
+.calcDisplay {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 1px  solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 100px;
+    width: 358px;
+    font-size: 35px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.buttonGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.digit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 100px;
+    font-size: 22px;
+
+}
+
+.operator {
+    display: flex;
+    width: 96px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.equalsOperator {
+    display: flex;
+    width: 96px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
